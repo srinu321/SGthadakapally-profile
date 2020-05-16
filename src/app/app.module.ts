@@ -8,7 +8,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { BackgroundComponent } from './background/background.component'
+import { BackgroundComponent } from './background/background.component';
+import { ContactComponent } from './contact/contact.component';
+import { LeftSideComponent } from './left-side/left-side.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { BackgroundComponent } from './background/background.component'
     ResumeComponent,
     HeaderComponent,
     FooterComponent,
-    BackgroundComponent
+    BackgroundComponent,
+    ContactComponent,
+    LeftSideComponent
   ],
   imports: [
     BrowserModule,

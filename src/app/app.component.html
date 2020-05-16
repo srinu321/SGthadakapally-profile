@@ -1,11 +1,22 @@
-<div id="wrapper">
-    <header>
-        <app-header></app-header>
-    </header>
-    <section>
-        <router-outlet></router-outlet>
-    </section>
-    <footer>
-        <app-footer></app-footer>
-    </footer>
-</div>
+<body>
+    <div id="wrapper">
+        <header>
+            <app-header></app-header>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">London</a></li>
+                    <li><a href="#">Paris</a></li>
+                    <li><a href="#">Tokyo</a></li>
+                </ul>
+            </nav>
+            <article>
+                <router-outlet></router-outlet>
+            </article>
+        </section>
+        <footer>
+            <app-footer></app-footer>
+        </footer>
+    </div>
+</body>
