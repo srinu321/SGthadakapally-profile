@@ -7,7 +7,8 @@ import { ResumeComponent } from './resume/resume.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BackgroundComponent } from './background/background.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
     ProfileComponent,
     ResumeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    BackgroundComponent
   ],
   imports: [
     BrowserModule,
