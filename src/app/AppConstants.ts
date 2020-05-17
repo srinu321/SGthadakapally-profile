@@ -1,4 +1,4 @@
 export class AppConstants {
 
-    public static MAXIMUM_NUMBER = 10;
+    public static email = "chinna.sri0@gmail.com";
 }

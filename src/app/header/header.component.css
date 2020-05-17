@@ -1,5 +1,15 @@
-div.tp {
-  text-align: right;
-  height: center;
-
+.button {
+  background-color: rgb(10, 25, 47); /* Green */
+  border: none;
+  color:rgb(100, 255, 218); 
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px 10px 10px 10px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid rgb(191, 233, 223);
 }

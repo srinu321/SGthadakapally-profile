@@ -1,0 +1,40 @@
+#mySidenav a {
+  position: absolute;
+  left: -10px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(100, 255, 218); 
+  border-radius: 0 5px 5px 0;
+  background-color: rgb(10, 25, 47); 
+  border: 2px solid rgb(191, 233, 223);
+}
+
+#mySidenav a:hover {
+  left: 0;
+    background-color: rgb(114, 201, 178); 
+  border: 2px solid rgb(2, 41, 32); 
+}
+
+#about {
+  top: 240px;
+}
+
+#career {
+  top: 300px;
+}
+#skills {
+  top: 360px;
+}
+
+#projects {
+  top: 420px;
+}
+
+
+#contact {
+  top: 480px;
+
+}

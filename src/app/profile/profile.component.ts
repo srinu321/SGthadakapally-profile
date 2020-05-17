@@ -1,4 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
+import { AppConstants } from '../AppConstants';
 
 @Component({
   selector: 'app-profile',
@@ -7,6 +8,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None
 })
 export class ProfileComponent {
+  email = AppConstants.email
   images = [1, 2, 3, 4, 5].map((n) => `assets/img-0${n}.jpeg`);
 
 

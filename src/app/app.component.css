@@ -24,19 +24,8 @@ section {
 
 }
 
-nav {
-  float: left;
-  width: 30%;
-  height: 700px; /* only for demonstration, should be removed */
-  background: rgb(10, 25, 47);
-  padding: 20px;
-}
-
 /* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
+
 
 article {
  float: left;
@@ -52,4 +41,3 @@ footer {
   min-height: 15%;
   background-color: rgb(10, 25, 47);
 }
-
