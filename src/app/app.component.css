@@ -11,16 +11,41 @@ background-color: rgb(10, 25, 47);
   right: 0;
 }
 
-section {
-  min-height: 90%;
-  background-color: rgb(10, 25, 47);
-}
 
 header {
   margin-top: -50px;
   min-height: 10%;
   background-color:rgb(10, 25, 47);
 }
+section {
+  min-height: 90%;
+  background-color: rgb(10, 25, 47);
+  height: 700px; 
+
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 700px; /* only for demonstration, should be removed */
+  background: rgb(10, 25, 47);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+ float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:  rgb(10, 25, 47);
+  height: 700px; 
+}
+
 
 footer {
   margin-bottom: -50px;
@@ -28,18 +53,3 @@ footer {
   background-color: rgb(10, 25, 47);
 }
 
-p {
-  margin: 0;
-  padding: 0 0 1em 0;
-}
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
-  background-color: #f1f1f1;
-  padding: 10px;
-}
