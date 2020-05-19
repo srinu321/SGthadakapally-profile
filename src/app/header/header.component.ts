@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppConstants } from '../AppConstants';
 
 @Component({
   selector: 'app-header',
@@ -11,5 +12,17 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  email = AppConstants.email
+  faceBook = AppConstants.faceBook
+  gitHub = AppConstants.gitHub;
+  instagram = AppConstants.instagram;
+  linkden = AppConstants.linkden;
+
+  resume(): Window {
+
+    return window.open('assets/Srinivas-G.pdf', '_blank');
+  
+  }
+
 
 }

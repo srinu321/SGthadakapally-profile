@@ -13,3 +13,23 @@
   cursor: pointer;
   border: 2px solid rgb(191, 233, 223);
 }
+.media {
+    font-size:36px; 
+    color: rgb(204, 214, 246);
+
+}
+.media:hover {
+    color: rgb(114, 201, 178);  
+}
+
+.row {
+width: 100%;
+/*margin: 0 auto;*/
+text-align: center;
+}
+.block {
+  width: 100px;
+  /*float: left;*/
+    display: inline-block;
+    zoom: 1;
+}

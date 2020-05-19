@@ -8,8 +8,14 @@ import { AppConstants } from '../AppConstants';
   encapsulation: ViewEncapsulation.None
 })
 export class ProfileComponent {
+  aSidebar: boolean = false;
   email = AppConstants.email
   images = [1, 2, 3, 4, 5].map((n) => `assets/img-0${n}.jpeg`);
+
+  click(value: boolean) {
+    this.aSidebar = value;
+
+  }
 
 
 }
