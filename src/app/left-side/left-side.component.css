@@ -20,11 +20,12 @@
 }
 
 .about {
-  top: 240px;
+  top: 255px;
 }
 
 .career {
   top: 300px;
+  margin-top:10px;
 }
 .skills {
   top: 360px;

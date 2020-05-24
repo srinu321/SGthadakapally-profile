@@ -1,4 +1,16 @@
 .centerAbout {
 padding: 245px;
 color:  rgb(136, 146, 176);
+font-size: 18px;
+}
+img {
+border-radius: 8px;
+margin-left:900px;
+margin-top: -930px;
+background: rgba(76, 175, 80, 0.3);
+opacity: 0.3;
+}
+
+img:hover {
+    opacity: 1.0;
 }

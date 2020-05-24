@@ -9,7 +9,7 @@ import { AppConstants } from '../AppConstants';
 })
 export class ProfileComponent {
   email = AppConstants.email
-  images = [1, 2, 3, 4, 5].map((n) => `assets/img-0${n}.jpeg`);
+ 
 
 
 

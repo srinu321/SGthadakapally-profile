@@ -8,7 +8,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { BackgroundComponent } from './background/background.component';
 import { ContactComponent } from './contact/contact.component';
 import { LeftSideComponent } from './left-side/left-side.component';
 import { AboutComponent } from './about/about.component';
@@ -23,7 +22,7 @@ import { ProjectsComponent } from './projects/projects.component'
     ResumeComponent,
     HeaderComponent,
     FooterComponent,
-    BackgroundComponent,
+
     ContactComponent,
     LeftSideComponent,
     AboutComponent,

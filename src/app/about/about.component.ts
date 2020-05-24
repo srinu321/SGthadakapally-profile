@@ -14,5 +14,6 @@ export class AboutComponent implements OnInit {
    
   }
   university = AppConstants.university;
-  office = AppConstants.office
+  office = AppConstants.office;
+  images = [1].map((n) => `assets/img-0${n}.jpeg`);
 }
