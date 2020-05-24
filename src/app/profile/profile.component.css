@@ -1,52 +1,22 @@
-div.profile {
-text-align: left;
-color:  rgb(136, 146, 176);
-padding: 150px;
-}
 
-h1 {
-font-size: 55px;
-color: rgb(204, 214, 246);
-}
-
-h2 {
-font-size: 40px;
-color: rgb(154, 165, 201);
-}
-
-.button {
+.buttonProfile {
   background-color: rgb(10, 25, 47); /* Green */
-  border: none;
   color:rgb(100, 255, 218); 
   padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
   transition-duration: 0.4s;
-  cursor: pointer;
-  border: 2px solid rgb(191, 233, 223);;
+  border: 2px solid rgb(191, 233, 223);
 }
 
-.button1:hover {
+.buttonProfile:hover {
   background-color: rgb(114, 201, 178); 
   border: 2px solid rgb(2, 41, 32); 
 }
 
 
-p.p1 {
-    color: rgb(100, 255, 218);
-    font-size: 16px;
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-    font-weight: normal;
-    margin: 0px 0px 20px 3px;
-}
 
-#asides {
- float: left;
-  padding: 20px;
-  width: 70%;
-  background-color:  rgb(10, 25, 47);
-  height: 1800px; 
+div.profile {
+text-align: left;
+color:  rgb(136, 146, 176);
+padding: 150px;
+margin-left: 3em;
 }

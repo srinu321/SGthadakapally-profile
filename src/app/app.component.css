@@ -21,12 +21,16 @@ section {
   min-height: 90%;
   background-color: rgb(10, 25, 47);
   height: 700px; 
+  
 
 }
-
-/* Style the list inside the menu */
-
-
+p.p1 {
+    color: rgb(100, 255, 218);
+    font-size: 16px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    margin: 0px 0px 20px 3px;
+}
 article {
  float: left;
   padding: 20px;
@@ -40,4 +44,46 @@ footer {
   margin-bottom: -50px;
   min-height: 15%;
   background-color: rgb(10, 25, 47);
+}
+
+
+h1 {
+font-size: 55px;
+color: rgb(204, 214, 246);
+}
+
+h2 {
+font-size: 40px;
+color: rgb(154, 165, 201);
+}
+h3 {
+
+  color: rgb(204, 214, 246);
+}
+
+.center {
+padding: 250px;
+color:  rgb(136, 146, 176);
+}
+
+.headings {
+font-size: 36px;
+color: rgb(204, 214, 246); 
+margin-bottom: 02em;
+}
+        
+.numbers {
+color: rgb(100, 255, 218);
+font-size: 36px;
+}
+hr.new1 {
+  border: .2px solid rgb(204, 214, 246);
+  width:35%;
+  margin-left: 250px;
+  margin-top: -23px;
+  
+}
+
+a.link {
+  color:rgb(100, 255, 218); 
 }

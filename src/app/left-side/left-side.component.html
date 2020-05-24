@@ -1,7 +1,36 @@
-<div id="mySidenav" class="sidenav">
-<a href="#" id="about">About</a>
-<a href="#" id="career">Career</a>
-<a href="#" id="skills">Skills</a>
-<a href="#" id="projects">Projects</a>
-<a href="#" id="contact">Contact</a>
+<div class="mySidenav">
+<a (click)="onClick('about')" class="about">About</a>
+<a (click)="onClick('career')" class="career">Career</a>
+<a (click)="onClick('skills')"class="skills">Skills</a>
+<a (click)="onClick('projects')"class="projects">Projects</a>
+<a (click)="onClick('contact')" class="contact">Contact</a>
 </div>
+<li>
+<ol>
+<div id="about" style="margin-top:2.5em">
+<app-about></app-about>
+</div>
+</ol>
+<ol>
+<div id="career" style="margin-top:12.5em">
+    <app-career></app-career>
+</div>
+</ol>
+<ol>
+<div id="skills" style="margin-top:12.5em">
+    <app-skills></app-skills>
+</div>
+</ol>
+<ol>
+<div id="projects" style="margin-top:12.5em">
+    <app-projects></app-projects>
+</div>
+</ol>
+<ol>
+<div id="contact" style="margin-top:12.5em">
+    <app-contact></app-contact>
+</div>
+</ol>
+
+
+</li>

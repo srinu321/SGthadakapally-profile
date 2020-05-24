@@ -1,4 +1,4 @@
-.button {
+.buttonHeader {
   background-color: rgb(10, 25, 47); /* Green */
   border: none;
   color:rgb(100, 255, 218); 
@@ -13,6 +13,13 @@
   cursor: pointer;
   border: 2px solid rgb(191, 233, 223);
 }
+
+.buttonHeader:hover {
+  background-color: rgb(114, 201, 178); 
+  border: 2px solid rgb(2, 41, 32); 
+}
+
+
 .media {
     font-size:36px; 
     color: rgb(204, 214, 246);
@@ -27,6 +34,8 @@ width: 100%;
 /*margin: 0 auto;*/
 text-align: center;
 }
+
+
 .block {
   width: 100px;
   /*float: left;*/

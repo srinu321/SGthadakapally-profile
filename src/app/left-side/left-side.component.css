@@ -1,4 +1,4 @@
-#mySidenav a {
+.mySidenav a {
   position: absolute;
   left: -10px;
   transition: 0.3s;
@@ -12,29 +12,30 @@
   border: 2px solid rgb(191, 233, 223);
 }
 
-#mySidenav a:hover {
+.mySidenav a:hover {
   left: 0;
-    background-color: rgb(114, 201, 178); 
+  background-color: rgb(114, 201, 178); 
   border: 2px solid rgb(2, 41, 32); 
+  cursor: pointer;
 }
 
-#about {
+.about {
   top: 240px;
 }
 
-#career {
+.career {
   top: 300px;
 }
-#skills {
+.skills {
   top: 360px;
 }
 
-#projects {
+.projects {
   top: 420px;
 }
 
-
-#contact {
+.contact {
   top: 480px;
 
 }
+

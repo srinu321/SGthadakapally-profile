@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
-import { ProfileComponent } from '../profile/profile.component';
 
 @Component({
   selector: 'app-left-side',
@@ -9,17 +8,15 @@ import { ProfileComponent } from '../profile/profile.component';
 })
 export class LeftSideComponent implements OnInit {
 
-  constructor(private viewportScroller: ViewportScroller, private profileComponent: ProfileComponent) { }
+  constructor(private viewportScroller: ViewportScroller) { }
 
-  public onClick(elementId: string): void {
-
-    this.profileComponent.click(true)
-    this.viewportScroller.scrollToAnchor(elementId);
-
-
-  }
 
   ngOnInit(): void {
   }
+  
+  public onClick(elementId: string): void {
+    this.viewportScroller.scrollToAnchor(elementId);
+  }
+
 
 }

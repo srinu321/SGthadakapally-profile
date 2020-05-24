@@ -10,19 +10,14 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
   email = AppConstants.email
   faceBook = AppConstants.faceBook
   gitHub = AppConstants.gitHub;
   instagram = AppConstants.instagram;
   linkden = AppConstants.linkden;
 
-  resume(): Window {
-
-    return window.open('assets/Srinivas-G.pdf', '_blank');
-  
-  }
+  resume(): Window { return window.open('assets/Srinivas-G.pdf', '_blank'); }
 
 
 }
