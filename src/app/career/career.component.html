@@ -4,33 +4,36 @@
     </div>
 
     <div>
-        <ul class ="sub-menu">
-            <li>
-                Vanguard
+        <ul class="sub-menu">
+            <li class="space">
+                <button (click) ="resume('vanguard')" class="buttonCareer">Vanguard</button>
             </li>
-            <li>
-                NationWide
+            <li class="space">
+                <button (click) ="resume('nationwide')" class="buttonCareer"> Nationwide </button>
             </li>
-            <li>
-                Gordian
+            <li class="space">
+                <button (click) ="resume('gordian')" class="buttonCareer"> Gordian </button>
             </li>
-            <li>
-                CRSA
+            <li class="space">
+                <button (click) ="resume('crsa')" class="buttonCareer"> CRSA </button>
             </li>
         </ul>
-        <div>
-
-           
-            MullenLowe
-            UI Engineer Co-op @ Apple
-            July - Dec 2017
-
-            Developed and shipped highly interactive web applications for Apple Music using Ember.js
-            Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal
-            APIs
-            Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users
-            log in and
-            listen to full
-        </div>
-
+      
     </div>
+    <div class = "box">
+
+    <div *ngIf="vanguard"> 
+        <app-vanguard></app-vanguard>
+    </div>
+    <div  *ngIf="nationwide">
+        <app-nationwide></app-nationwide>
+    </div>
+    <div  *ngIf="gordian">
+        <app-gordian></app-gordian>
+    </div>
+    <div  *ngIf="crsa">
+        <app-crsa></app-crsa>
+    </div>
+</div>
+
+</div>

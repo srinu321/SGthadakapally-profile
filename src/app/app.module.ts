@@ -13,7 +13,11 @@ import { LeftSideComponent } from './left-side/left-side.component';
 import { AboutComponent } from './about/about.component';
 import { CareerComponent } from './career/career.component';
 import { SkillsComponent } from './skills/skills.component';
-import { ProjectsComponent } from './projects/projects.component'
+import { ProjectsComponent } from './projects/projects.component';
+import { VanguardComponent } from './vanguard/vanguard.component';
+import { NationwideComponent } from './nationwide/nationwide.component';
+import { GordianComponent } from './gordian/gordian.component';
+import { CRSAComponent } from './crsa/crsa.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { ProjectsComponent } from './projects/projects.component'
     AboutComponent,
     CareerComponent,
     SkillsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    VanguardComponent,
+    NationwideComponent,
+    GordianComponent,
+    CRSAComponent
   ],
   imports: [
     BrowserModule,

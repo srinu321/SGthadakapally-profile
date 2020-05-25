@@ -84,3 +84,68 @@ hr.new1 {
 a.link {
   color:rgb(100, 255, 218); 
 }
+
+/*   carrer starts */
+
+
+
+div.head {
+font-size: 20px;
+color: rgb(204, 214, 246);
+}
+
+div.Company {
+    color: rgb(100, 255, 218);
+    font-size: 13px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    margin-left: 185px;
+    margin-top: -22.5px;
+}
+ul.arrow {
+  position: relative;
+  list-style: none;
+}
+
+li.color {
+  list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+ 
+}
+div.text {
+    color: rgb(136, 146, 176);
+    font-size: 11.8px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+     
+}
+
+li.color:before {
+  content: "\25BA \0020";
+  font-size: 14.5px;
+  top: 5px;
+  color: aquamarine;
+  margin-left: -60px;
+  
+}
+
+
+.point1 {
+    margin-left: -35px;
+    margin-top: -17px;
+  
+}
+.point2 {
+    margin-left: -35px;
+    margin-top: -17px;
+  
+
+}
+.point3 {
+    margin-left: -35px;
+    margin-top: -17px;
+  
+}
+
+/* carrer ends */
