@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./career.component.css']
 })
 export class CareerComponent implements OnInit {
-  vanguard: boolean = false;
+  vanguard: boolean = true;
   nationwide: boolean = false;
   gordian: boolean = false;
   crsa: boolean = false;

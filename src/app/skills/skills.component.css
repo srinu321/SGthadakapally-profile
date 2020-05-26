@@ -1,0 +1,44 @@
+.boxSkills {
+  width: 750px;
+  height: 380px;  
+  padding: 20px;
+  border: 1px solid rgb(10, 25, 47);
+  margin-left: -162.5px;
+  margin-top: 30.5px;
+  position: absolute;
+  
+}
+.boxSkills:hover {
+    border: 1px solid rgb(114, 201, 178); 
+
+}
+.centerSkills {
+padding: 100px;
+ margin-left: 350px;
+color:  rgb(136, 146, 176);
+}
+
+hr.newS {
+  border: .01px solid rgb(204, 214, 246);
+  width:35%;
+  margin-left: 165px;
+  margin-top: -15.5px;
+  
+}
+
+td.smallBox {
+    max-width: 30%;
+    height:100px;  
+    border: 1px solid  rgb(10, 25, 47);
+    margin-left: 10px; 
+    padding: 10px;
+    text-align: center;
+    color: rgb(114, 201, 178); 
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+td.smallBox:hover {
+    border: 1px solid rgb(114, 201, 178); 
+    color: rgb(10, 25, 47)
+}
