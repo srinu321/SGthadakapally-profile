@@ -1,0 +1,97 @@
+.centerProject {
+padding: 100px;
+ margin-left: 350px;
+color:  rgb(136, 146, 176);
+}
+
+hr.newS {
+  border: .01px solid rgb(204, 214, 246);
+  width:35%;
+  margin-left: 185px;
+  margin-top: -15.5px;
+  
+}
+
+.buttonProject {
+  background-color: rgb(10, 25, 47); /* Green */
+  border: none;
+  color:rgb(100, 255, 218); 
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px 28px 12px 28px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid rgb(191, 233, 223);
+  margin-left: 22px;
+  margin-top: 25.5px;
+
+}
+
+.buttonProject:hover {
+  background-color: rgb(114, 201, 178); 
+  border: 2px solid rgb(2, 41, 32); 
+}
+
+
+
+
+#logoMain {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(10, 25, 47);
+	border: 1px solid rgb(10, 25, 47);
+	border-radius: 50%;
+	box-shadow: 0px 0px 50px 0px rgb(114, 201, 178) ;
+	position: relative;
+}
+
+#logoMainafter {
+  width: 100px;
+  height: 100px;
+  margin-top: -35px;
+  margin-left: 55px;
+  display: block;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(50% 50%, circle cover,rgb(10, 25, 47),rgb(10, 25, 47), 12%, rgba(255, 255, 255, 0) 24%);
+  -webkit-transform: translateX(-80px) translateY(-90px) skewX(-20deg);
+  -webkit-filter: blur(10px);
+}
+
+#logoInside {
+	width: 50px;
+	height: 50px;
+	margin: 24px;
+	background-color: rgb(114, 201, 178); 
+	border: 1px solid rgb(114, 201, 178); 
+	border-radius: 50%;
+	box-shadow: 0px 0px 15px 3px rgb(114, 201, 178); 
+	z-index: 23;
+    position: absolute;
+    text-align: center;
+    color: rgb(10, 25, 47);
+}
+
+#logoMain:after {
+	content: "";
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 2px;
+	left: 57px;
+	/* background-color: green; */
+	border-radius: 50%;
+	box-shadow: -19px 17px 0px 14px rgb(114, 201, 178); 
+	clip: rect(0px, 12px, 63px, -110px);
+	z-index: 0;
+}
+
+.fixing {
+
+margin-left: 150px;
+  margin-top: 120.5px;
+  
+}

@@ -18,3 +18,20 @@
   background-color: rgb(114, 201, 178); 
   border: 2px solid rgb(2, 41, 32); 
 }
+
+.centerContact {
+padding: 100px;
+ margin-left: 350px;
+color:  rgb(136, 146, 176);
+ font-size: 12.8px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+
+}
+hr.newContact {
+  border: .01px solid rgb(204, 214, 246);
+  width:35%;
+  margin-left: 245px;
+  margin-top: -15.5px;
+  
+}
