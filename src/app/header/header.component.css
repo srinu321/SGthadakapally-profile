@@ -17,6 +17,7 @@
 .buttonHeader:hover {
   background-color: rgb(114, 201, 178); 
   border: 2px solid rgb(2, 41, 32); 
+  background-size: 100% auto;
 }
 
 

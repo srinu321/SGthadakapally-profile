@@ -17,7 +17,9 @@ import { ProjectsComponent } from './projects/projects.component';
 import { VanguardComponent } from './vanguard/vanguard.component';
 import { NationwideComponent } from './nationwide/nationwide.component';
 import { GordianComponent } from './gordian/gordian.component';
-import { CRSAComponent } from './crsa/crsa.component'
+import { CRSAComponent } from './crsa/crsa.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -41,7 +43,7 @@ import { CRSAComponent } from './crsa/crsa.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule, BrowserModule, FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

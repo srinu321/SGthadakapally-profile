@@ -1,5 +1,6 @@
 body {
 background-color: rgb(10, 25, 47);
+
 }
 
 #wrapper {
@@ -16,6 +17,7 @@ header {
   margin-top: -50px;
   min-height: 10%;
   background-color:rgb(10, 25, 47);
+  background-size: 100% auto;
 }
 section {
   min-height: 90%;
