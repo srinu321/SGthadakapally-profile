@@ -17,8 +17,8 @@ jobs:
         node-version: 12.x
     - name: npm install
       run: npm install
-    - name: npm start
-      run:  npm run start
+    - name: npm build
+      run:  npm run build --prod
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
       with:
