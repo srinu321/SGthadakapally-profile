@@ -9,11 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
-  {
-    path: '',
-    redirectTo: 'profile/srinivas',
-    pathMatch: 'full'
-  },
+ 
   {
     path: 'profile/srinivas',
     component: ProfileComponent
